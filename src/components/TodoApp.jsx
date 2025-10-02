@@ -111,22 +111,26 @@ const TodoApp = () => {
               </button>
 
               {/* Clear and Delete Buttons */}
-              {stats.total > 1 && (
-                <div className="flex items-end gap-2 ">
-                  {stats.completed > 0 && (
-                    <button className="shortHand-but flex items-center gap-3 leading text-red-600 hover:text-red-700 bg-red-50 sm:bg-transparent sm:hover:bg-red-50 px-3 py-2 rounded-lg transition-colors duration-200 text-sm" onClick={handleClearComplete}>
-                      {" "}
-                      <Trash2 size={16} /> Clear Completed
-                    </button>
-                  )}
-                  {stats.active > 0 && (
-                    <button className="shortHand-but flex items-center gap-3 text-green-600 hover:text-green-700 bg-green-50 sm:bg-transparent sm:hover:bg-green-50 px-3 py-2 rounded-lg transition-colors duration-200 text-sm" onClick={handleMarkAllComplete}>
-                      {" "}
-                      <CheckCircle2 size={16} /> Mark All Done
-                    </button>
-                  )}
-                </div>
-              )}
+{stats.total > 1 && (
+  <div className="flex flex-row gap-2">
+    {stats.completed > 0 && (
+      <button
+        className="flex-1 flex items-center justify-center gap-1 text-red-600 hover:text-red-700 bg-red-50 sm:bg-transparent sm:hover:bg-red-50 px-2 py-1 sm:px-4 sm:py-3 rounded-lg transition-colors duration-200 text-xs sm:text-base font-medium whitespace-nowrap"
+        onClick={handleClearComplete}
+      >
+        <Trash2 size={14} /> Clear Completed
+      </button>
+    )}
+    {stats.active > 0 && (
+      <button
+        className="flex-1 flex items-center justify-center gap-1 text-green-600 hover:text-green-700 bg-green-50 sm:bg-transparent sm:hover:bg-green-50 px-2 py-1 sm:px-4 sm:py-3 rounded-lg transition-colors duration-200 text-xs sm:text-base font-medium whitespace-nowrap"
+        onClick={handleMarkAllComplete}
+      >
+        <CheckCircle2 size={14} /> Mark All Done
+      </button>
+    )}
+  </div>
+)}
             </div>
 
             {/* Todo Filters I will add Logics */}
