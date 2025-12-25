@@ -38,7 +38,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Mouneesh890-ce/todo-app.git
-cd REPO-NAME
+cd todo-app
 ```
 
 Install dependencies:
@@ -91,7 +91,8 @@ Suggestions and pull requests are welcome. Feel free to fork and experiment!
 ## 📧 Contact
 
 **Portfolio:** https://mouneesh-portfolio.web.app  
-**GitHub:** https://github.com/YOUR-USERNAME  
+**LinkedIn:**   https://www.linkedin.com/in/mouneesh-kandhasamy
+**Email:**   mouneesh.kandhasamy@gmail.com
 
 ---
 
