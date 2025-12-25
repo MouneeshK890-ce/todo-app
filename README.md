@@ -91,7 +91,7 @@ Suggestions and pull requests are welcome. Feel free to fork and experiment!
 ## 📧 Contact
 
 **Portfolio:** https://mouneesh-portfolio.web.app  
-**LinkedIn:**   https://www.linkedin.com/in/mouneesh-kandhasamy
+**LinkedIn:**   https://www.linkedin.com/in/mouneesh-kandhasamy  
 **Email:**   mouneesh.kandhasamy@gmail.com
 
 ---
