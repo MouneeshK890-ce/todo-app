@@ -1,16 +1,97 @@
-# React + Vite
+# 📝 To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean, and efficient task management application that allows users to create, update, delete, and manage their daily tasks. The app focuses on usability, performance, and a modern UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- **React**
+- **Redux Toolkit (State Management)**
+- **Tailwind CSS**
+- **LocalStorage (Data Persistence)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ➕ **Add new tasks**
+- ✏️ **Edit existing tasks**
+- ❌ **Delete tasks**
+- ✔️ **Mark tasks as completed**
+- 🔁 **Persistent storage** using LocalStorage  
+- ⚡ **Fast global state management** with Redux Toolkit  
+- 🎨 **Modern, clean UI** using Tailwind CSS  
+- 📱 **Responsive design** for desktop & mobile  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ▶️ Demo
+**Live Demo:** _(add deployment link here — Netlify / Vercel / Firebase)_  
+**Repository:** _(this repository)_
+
+---
+
+## 🛠️ Setup & Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+cd REPO-NAME
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app:
+
+```bash
+npm start
+```
+
+(or)
+
+```bash
+npm run dev
+```
+
+(depending on your setup)
+
+---
+
+## 🧠 How It Works
+
+- All tasks are stored in **Redux Toolkit state**
+- State is synced to **LocalStorage**, so tasks remain after refreshing
+- UI updates instantly when tasks change
+- Tailwind ensures a clean, responsive layout
+
+---
+
+## 📚 What I Learned
+
+- Structuring apps with **Redux Toolkit slices**
+- Persisting data using **LocalStorage**
+- Designing clean UIs with **Tailwind CSS**
+- Handling CRUD operations efficiently
+- Improving performance and app responsiveness
+
+---
+
+## 🤝 Contributing
+
+Suggestions and pull requests are welcome. Feel free to fork and experiment!
+
+---
+
+## 📧 Contact
+
+**Portfolio:** https://mouneesh-portfolio.web.app  
+**GitHub:** https://github.com/YOUR-USERNAME  
+
+---
+
+⭐ If you found this useful, consider giving the repo a star!
