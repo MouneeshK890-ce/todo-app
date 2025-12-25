@@ -27,8 +27,8 @@ A simple, clean, and efficient task management application that allows users to 
 ---
 
 ## ▶️ Demo
-**Live Demo:** _(add deployment link here — Netlify / Vercel / Firebase)_  
-**Repository:** _(this repository)_
+**Live Demo:** _(https://mouneesh-todo-app.web.app/))_  
+**Repository:** _(https://github.com/MouneeshK890-ce/todo-app)_
 
 ---
 
@@ -37,7 +37,7 @@ A simple, clean, and efficient task management application that allows users to 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+git clone https://github.com/Mouneesh890-ce/todo-app.git
 cd REPO-NAME
 ```
 
