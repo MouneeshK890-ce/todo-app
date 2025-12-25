@@ -18,6 +18,7 @@ A simple, clean, and efficient task management application that allows users to 
 - ✏️ **Edit existing tasks**
 - ❌ **Delete tasks**
 - ✔️ **Mark tasks as completed**
+- 📊 **Progress bar showing completion percentage**
 - 🔁 **Persistent storage** using LocalStorage  
 - ⚡ **Fast global state management** with Redux Toolkit  
 - 🎨 **Modern, clean UI** using Tailwind CSS  
