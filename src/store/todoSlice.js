@@ -74,8 +74,9 @@ const todoSlice = createSlice({
           state.items.forEach((todo) =>{
             todo.completed = hasInComplete;
             todo.updatedAt = new Date().toISOString();
-            saveTodos(state.items);
-          })
+            
+          });
+          saveTodos(state.items);
          },
 
          clearCompleted : (state) => {

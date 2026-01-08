@@ -3,7 +3,7 @@ import { CheckCircle2, Circle, Filter, Plus, Trash2 } from "lucide-react";
 import TodoFilters from "./TodoFilters";
 import TodoForm from "./TodoForm";
 import TodoItem from "./TodoItem";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector} from "react-redux";
 import {
   selectFilter,
   selectFilteredTodos,
